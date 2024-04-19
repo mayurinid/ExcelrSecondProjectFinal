@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Ilistner.MyItestListner"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.in.ExcelRprojectnew.Alreadyexistaccountclickhere"/>
+      <class name="com.in.ExcelRprojectnew.reviewofproduct"/>
+      <class name="com.in.ExcelRprojectnew.cartDetails"/>
+      <class name="com.in.ExcelRprojectnew.accountaddressbook"/>
+      <class name="com.in.ExcelRprojectnew.myaccountlinks"/>
+      <class name="com.in.ExcelRprojectnew.addproductwithoutsingincheckout"/>
+      <class name="com.in.ExcelRprojectnew.productaddtowishlist"/>
+      <class name="com.in.ExcelRprojectnew.whatsnewdetails"/>
+      <class name="com.in.ExcelRprojectnew.myaccountproductreview"/>
+      <class name="com.in.ExcelRprojectnew.fastcreateaccount"/>
+      <class name="com.in.ExcelRprojectnew.editcartaddedproduct"/>
+      <class name="com.in.ExcelRprojectnew.addproductcheckout"/>
+      <class name="com.in.ExcelRprojectnew.signout"/>
+      <class name="com.in.ExcelRprojectnew.menDetails"/>
+      <class name="com.in.ExcelRprojectnew.Signin"/>
+      <class name="com.in.ExcelRprojectnew.myaccountwishlist"/>
+      <class name="com.in.ExcelRprojectnew.sale"/>
+      <class name="com.in.ExcelRprojectnew.accountCreate"/>
+      <class name="com.in.ExcelRprojectnew.AlreadyExistingAccount"/>
+      <class name="com.in.ExcelRprojectnew.myaccountcompareclearproduct"/>
+      <class name="com.in.ExcelRprojectnew.gearDetails"/>
+      <class name="com.in.ExcelRprojectnew.accountinformation"/>
+      <class name="com.in.ExcelRprojectnew.productaddtocompare"/>
+      <class name="com.in.ExcelRprojectnew.womendetails"/>
+      <class name="com.in.ExcelRprojectnew.addproductwithoutsignin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
